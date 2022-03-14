@@ -42,15 +42,19 @@ root/
 
 ### 2d-cnn-based
 
-
-
 #### 2016 Temporal Segment Networks: Towards Good Practices for Deep Action Recognition
 
+<img src="README.assets/1-16472660334671.png" alt="1" style="zoom:60%;" />
 
+​	The main idea is to divide a video into $K$ segments, and extract $1$ of each and make fusion of the logits. In this model, the TSN model ultilize both spatial and temporal feature of frames.
+
+​	The result: UCF101(94.2%), HMDB51($69.4\%$) 
 
 #### 2019 Collaborative Spatiotemporal Feature Learning for Video Action Recognition
 
+<img src="README.assets/3.png" alt="3" style="zoom:67%;" />
 
+​	The result:  Moments in Time($32.4\%$), Kinetics($77.5\%$)
 
 #### 2019 TSM: Temporal Shift Module for Efficient Video Understanding
 
@@ -86,7 +90,7 @@ root/
 
 
 
-### transformer-based/
+### transformer-based
 
 #### 2019 Video Action Transformer Network
 
@@ -109,8 +113,10 @@ root/
 #### 2017 The “something something” video database for learning and evaluating visual common sense
 
 #### 2018 Detecting and Recognizing Human-Object Interactions
-		#### 2018 Non-local Neural Networks
-​		
+
+#### 2018 Non-local Neural Networks
+
+
 
 #### 2018 iCAN: Instance-Centric Attention Network for Human-Object Interaction Detection
 ​		

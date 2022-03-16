@@ -102,7 +102,7 @@ pyslowfast: https://github.com/facebookresearch/SlowFast
 
 In this paper, a kind of two stream architecture is proposed to extract fast motion change and slow spatial change in the same time. It is different from the Two-Stream model that it used 3d-cnn-based backbone.
 
-<img src="D:\Work\Paper\AI\paper\video understanding\paper-video-action-recognition\README.assets\9.PNG" alt="9" style="zoom:50%;" />
+<img src="README.assets\9.PNG" alt="9" style="zoom:50%;" />
 
 The result: Kinetics400($79.8\%$), Kinetics600($81.8\%$), Charades($45.2\%$)
 
@@ -112,17 +112,17 @@ I initially believed that gnn-based models are the correct answer for video unde
 
 #### 2018 Videos as Space-Time Region Graphs
 
-<img src="D:\Work\Paper\AI\paper\video understanding\paper-video-action-recognition\README.assets\10.PNG" alt="10" style="zoom:40%;" />
+<img src="README.assets\10.PNG" alt="10" style="zoom:40%;" />
 
 This is a classic paper that proposed the first gnn-based model. It extract the relationship with a gcn model. Though the backbone is still I3D, the relationship is extracted as an extension for fusion. The graph needs an detector that detect human and object, focus on the top n ROI feature, it construct a graph with edges composed of similarity relations and spatial-temporal relations.
 
-<img src="D:\Work\Paper\AI\paper\video understanding\paper-video-action-recognition\README.assets\11.PNG" alt="11" style="zoom:40%;" />
+<img src="README.assets\11.PNG" alt="11" style="zoom:40%;" />
 
 The result: Charades($39.7\%$), Sth-Sth($46.1\%$)
 
 #### 2021 Spatially Conditioned Graphs for Detecting Human–Object Interactions
 
-<img src="D:\Work\Paper\AI\paper\video understanding\paper-video-action-recognition\README.assets\12.PNG" alt="12" style="zoom:40%;" />
+<img src="README.assets\12.PNG" alt="12" style="zoom:40%;" />
 
 This paper aims to process on HOI task on a single image. The motion is to create a GAT-based model that can be worked on the relationship between human and objects.
 

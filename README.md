@@ -35,6 +35,7 @@ root/
 		|--2020 Something-Else: Compositional Action Recognition with Spatial-Temporal Interaction Networks
 		|--2021 Hand-Object Interaction Reasoning
 		|--2021 Revisiting spatio-temporal layouts for compositional action recognition
+		|--2022 Highlighting Object Category Immunity for the Generalization of Human-Object Interaction Detection
 		
 ```
 
@@ -159,4 +160,8 @@ I initially believed that gnn-based models are the correct answer for video unde
 #### 2021 Hand-Object Interaction Reasoning
 
 #### 2021 Revisiting spatio-temporal layouts for compositional action recognition
+
+#### 2022 Highlighting Object Category Immunity for the Generalization of Human-Object Interaction Detection
+
+
 

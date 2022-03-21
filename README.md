@@ -31,6 +31,7 @@ root/
 		|--2018 iCAN: Instance-Centric Attention Network for Human-Object Interaction Detection
 		|--2019 Long-Term Feature Banks for Detailed Video Understanding
 		|--2019 Transferable Interactiveness Knowledge for Human-Object Interaction Detection
+		|--2020 ConsNet Learning Consistency Graph for Zero-Shot
 		|--2020 Understanding Human Hands in Contact at Internet Scale
 		|--2020 Something-Else: Compositional Action Recognition with Spatial-Temporal Interaction Networks
 		|--2021 Hand-Object Interaction Reasoning
@@ -167,6 +168,8 @@ As ViT introduced transformer into CV, transformer-based methods have been then 
 #### 2020 Understanding Human Hands in Contact at Internet Scale
 
 #### 2020 Something-Else: Compositional Action Recognition with Spatial-Temporal Interaction Networks
+
+#### 2020 ConsNet Learning Consistency Graph for Zero-Shot
 
 #### 2021 Hand-Object Interaction Reasoning
 

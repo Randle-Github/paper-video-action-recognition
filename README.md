@@ -35,6 +35,7 @@ root/
 		|--2020 Something-Else: Compositional Action Recognition with Spatial-Temporal Interaction Networks
 		|--2021 Hand-Object Interaction Reasoning
 		|--2021 Revisiting spatio-temporal layouts for compositional action recognition
+		|--2021 Transferable Interactiveness Knowledge for Human-Object Interaction Detection
 		|--2022 Highlighting Object Category Immunity for the Generalization of Human-Object Interaction Detection
 		
 ```
@@ -101,9 +102,11 @@ pyslowfast: https://github.com/facebookresearch/SlowFast
 
 <img src="README.assets/8.png" alt="8" style="zoom: 50%;" />
 
-In this paper, a kind of two stream architecture is proposed to extract fast motion change and slow spatial change in the same time. It is different from the Two-Stream model that it 
+In this paper, a kind of two stream architecture is proposed to extract fast motion change and slow spatial change in the same time. It is different from the Two-Stream model that it used 3d-cnn-based backbone.
 
-The result: 
+<img src="README.assets\9.PNG" alt="9" style="zoom:50%;" />
+
+The result: Kinetics400($79.8\%$), Kinetics600($81.8\%$), Charades($45.2\%$)
 
 ### gnn-based
 
@@ -111,13 +114,25 @@ I initially believed that gnn-based models are the correct answer for video unde
 
 #### 2018 Videos as Space-Time Region Graphs
 
+<img src="README.assets\10.PNG" alt="10" style="zoom:40%;" />
 
+This is a classic paper that proposed the first gnn-based model. It extract the relationship with a gcn model. Though the backbone is still I3D, the relationship is extracted as an extension for fusion. The graph needs an detector that detect human and object, focus on the top n ROI feature, it construct a graph with edges composed of similarity relations and spatial-temporal relations.
+
+<img src="README.assets\11.PNG" alt="11" style="zoom:40%;" />
+
+The result: Charades($39.7\%$), Sth-Sth($46.1\%$)
 
 #### 2021 Spatially Conditioned Graphs for Detecting Human–Object Interactions
 
+<img src="README.assets\12.PNG" alt="12" style="zoom:40%;" />
 
+This paper aims to process on HOI task on a single image. The motion is to create a GAT-based model that can be worked on the relationship between human and objects.
+
+The result: HICO-DET($31.33\%$), V-COCO($54.2\%$)
 
 ### transformer-based
+
+As ViT introduced transformer into CV, transformer-based methods have been then proposed in video understanding. Today’s SOTA are generally based on transformer with features extracted from 3d-cnn-based model.
 
 #### 2019 Video Action Transformer Network
 
@@ -143,11 +158,7 @@ I initially believed that gnn-based models are the correct answer for video unde
 
 #### 2018 Non-local Neural Networks
 
-
-
 #### 2018 iCAN: Instance-Centric Attention Network for Human-Object Interaction Detection
-
-​		
 
 #### 2019 Long-Term Feature Banks for Detailed Video Understanding
 
@@ -160,6 +171,8 @@ I initially believed that gnn-based models are the correct answer for video unde
 #### 2021 Hand-Object Interaction Reasoning
 
 #### 2021 Revisiting spatio-temporal layouts for compositional action recognition
+
+#### 2021 Transferable Interactiveness Knowledge for Human-Object Interaction Detection
 
 #### 2022 Highlighting Object Category Immunity for the Generalization of Human-Object Interaction Detection
 

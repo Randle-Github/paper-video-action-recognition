@@ -171,6 +171,10 @@ As ViT introduced transformer into CV, transformer-based methods have been then 
 
 #### 2020 ConsNet Learning Consistency Graph for Zero-Shot
 
+<img src="README.assets/13.png" alt="13" style="zoom: 50%;" />
+
+
+
 #### 2021 Hand-Object Interaction Reasoning
 
 #### 2021 Revisiting spatio-temporal layouts for compositional action recognition
@@ -178,6 +182,3 @@ As ViT introduced transformer into CV, transformer-based methods have been then 
 #### 2021 Transferable Interactiveness Knowledge for Human-Object Interaction Detection
 
 #### 2022 Highlighting Object Category Immunity for the Generalization of Human-Object Interaction Detection
-
-
-

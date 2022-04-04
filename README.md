@@ -137,7 +137,9 @@ As ViT introduced transformer into CV, transformer-based methods have been then 
 
 #### 2019 Video Action Transformer Network
 
+<img src="README.assets/14.png" alt="14" style="zoom: 50%;" />
 
+In this paper, the author employs a detector to extract the human and objects in each frame. It maps the human feature in the middle frame into the K, and maps the whole 3D video into K.
 
 #### 2021 Is Space-Time Attention All You Need for Video Understanding?
 
@@ -148,37 +150,3 @@ As ViT introduced transformer into CV, transformer-based methods have been then 
 
 
 #### 2021 ViViT: A Video Vision Transformer
-
-
-
-## interaction
-
-#### 2017 The “something something” video database for learning and evaluating visual common sense
-
-#### 2018 Detecting and Recognizing Human-Object Interactions
-
-#### 2018 Non-local Neural Networks
-
-#### 2018 iCAN: Instance-Centric Attention Network for Human-Object Interaction Detection
-
-#### 2019 Long-Term Feature Banks for Detailed Video Understanding
-
-#### 2019 Transferable Interactiveness Knowledge for Human-Object Interaction Detection
-
-#### 2020 Understanding Human Hands in Contact at Internet Scale
-
-#### 2020 Something-Else: Compositional Action Recognition with Spatial-Temporal Interaction Networks
-
-#### 2020 ConsNet Learning Consistency Graph for Zero-Shot
-
-<img src="README.assets/13.png" alt="13" style="zoom: 50%;" />
-
-
-
-#### 2021 Hand-Object Interaction Reasoning
-
-#### 2021 Revisiting spatio-temporal layouts for compositional action recognition
-
-#### 2021 Transferable Interactiveness Knowledge for Human-Object Interaction Detection
-
-#### 2022 Highlighting Object Category Immunity for the Generalization of Human-Object Interaction Detection

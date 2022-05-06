@@ -5,8 +5,9 @@ This is the repository of Randle's paper in video action recognition.
 In this repository, following the advice of my mentor, I create this repository to record what I read and give a general description about this area. I mainly divide this area into *general video understanding* and *interaction*(human-object detection, compositional action recognition).
 
 ```latex
-root/
+root|
     ├─compositional action recognition
+    │      2018 Scaling Egocentric Vision Scaling EPIC-KITCHENS Dataset.pdf
     │      2018 Videos as Space-Time Region Graphs.pdf
     │      2020 ConsNet Learning Consistency Graph for Zero-Shot.pdf
     │      2020 Something-Else Compositional Action Recognition with Spatial-Temporal Interaction Networks.pdf
@@ -23,6 +24,13 @@ root/
     │      2022 Highlighting Object Category Immunity for the Generalization of Human-Object Interaction Detection.pdf
     │      2022 Object-Region Video Transformer.pdf
     │      2022 THORN Temporal Human-Object Relation.pdf
+    │
+    ├─contrastive learning
+    │      2020 (MoCo v2)Improved Baselines with Momentum Contrastive Learning.pdf
+    │      2020 (MoCo)Momentum Contrast for Unsupervised Visual Representation Learning.pdf
+    │      2021 (DIDN)Emerging Properties in Self-Supervised Vision Transformers.pdf
+    │      2021 (MoCo v3)An Empirical Study of Training Self-Supervised Vision Transformers.pdf
+    │
     ├─general action understanding
     │  ├─2d-cnn-based
     │  │      2014 Two-Stream Convolutional Networks for Action Recognition in Videos.pdf
@@ -55,12 +63,15 @@ root/
     │      2019 Long-Term Feature Banks for Detailed Video Understanding.pdf
     │      2019 Transferable Interactiveness Knowledge for HOI.pdf
     │      2020 Human hands in contact.pdf
+    │      2021 Motion Guided Attention Fusion to Recognize Interactions from Videos.pdf
+    │      2021 Objetc-Region Video Transformer.pdf
     │      2021 Transferable Interactiveness Knowledge for Human-Object Interaction Detection.pdf
     │
     ├─long tail
     │      2018 mixup BEYOND EMPIRICAL RISK MINIMIZATION.pdf
     │      2021 VideoLT Large-scale Long-tailed Video Recognition.pdf
-    └─ZSL
+    │
+    └─zero-shot learning
             2017 Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks.pdf
             2019 HOW TO TRAIN YOUR MAML.pdf
             2021 Cluster_Split_Fuse_and_Update_Meta-Learning for Open Compound Domain.pdf
@@ -74,7 +85,6 @@ root/
             2022 BatchFormer Learning to Explore Sample Relationships for Robust Representing Learning.pdf
             2022 Generalizing to Unseen Domains A Survey on Domain Generalization.pdf
             2022 Generative Mixup Networks for Zero-Shot Learning.pdf
-
 ```
 
 # general video understanding

@@ -6,6 +6,9 @@ In this repository, following the advice from my mentor, I record some awsome pa
 
 ```latex
 root|
+    │  compositional action recognition survey.pptx
+    │  README.md
+    │
     ├─compositional action recognition
     │      2018 Scaling Egocentric Vision Scaling EPIC-KITCHENS Dataset.pdf
     │      2018 Videos as Space-Time Region Graphs.pdf
@@ -13,6 +16,7 @@ root|
     │      2020 Something-Else Compositional Action Recognition with Spatial-Temporal Interaction Networks.pdf
     │      2020 Visual Compositional Learning for Human-Object Interaction Detection.pdf
     │      2021 (MotionFormer) Keep Your Eye on the Ball Trajectory Attention in Video Transformers.pdf
+    │      2021 Counterfactual Debiasing Inference for Compositional Action Recognition.pdf
     │      2021 Detecting Human-Object Interaction via Fabricated Compositional Learning.pdf
     │      2021 Exploiting Scene Graphs for Human-Object Interaction Detection.pdf
     │      2021 Hand-Object Interaction Reasoning.pdf
@@ -30,6 +34,9 @@ root|
     │      2020 (MoCo)Momentum Contrast for Unsupervised Visual Representation Learning.pdf
     │      2021 (DIDN)Emerging Properties in Self-Supervised Vision Transformers.pdf
     │      2021 (MoCo v3)An Empirical Study of Training Self-Supervised Vision Transformers.pdf
+    │      2022 Absolute Wrong Makes Better Boosting Weakly Supervised Object Detection via Negtive Deterministic Information.pdf
+    │      2022 Dual-AI Dual-path Actor Interaction Learning for Group Activity Recognition.pdf
+    │      contrastive_learning_survey.txt
     │
     ├─general action understanding
     │  ├─2d-cnn-based
@@ -74,6 +81,7 @@ root|
     └─zero-shot learning
             2017 Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks.pdf
             2019 HOW TO TRAIN YOUR MAML.pdf
+            2020 KeepAugment A Simple Information-Preserving Data Augmentation Approach.pdf
             2021 Cluster_Split_Fuse_and_Update_Meta-Learning for Open Compound Domain.pdf
             2021 HOW TO TRAIN YOUR MAML TO EXCEL IN FEW-SHOT CLASSIFICATION.pdf
             2021 Knowledge-aware Zero-Shot Learning Survey and Perspective.pdf
@@ -85,4 +93,5 @@ root|
             2022 BatchFormer Learning to Explore Sample Relationships for Robust Representing Learning.pdf
             2022 Generalizing to Unseen Domains A Survey on Domain Generalization.pdf
             2022 Generative Mixup Networks for Zero-Shot Learning.pdf
+            meta learning survey.txt
 ```

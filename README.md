@@ -2,7 +2,7 @@
 
 This is the repository of Randle's paper in video action recognition.
 
-In this repository, following the advice of my mentor, I create this repository to record what I read and give a general description about this area. I mainly divide this area into *general video understanding* and *interaction*(human-object detection, compositional action recognition).
+In this repository, following the advice from my mentor, I record some awsome paper about video understanding. I mainly divide this area into *general video understanding* and *interaction*(human-object detection, compositional action recognition and so on).
 
 ```latex
 root|
